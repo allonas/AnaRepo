@@ -18,6 +18,9 @@
         />
         <activity android:name="com.ibm.mobileappbuilder.newapp20161114113756.ui.ContactActivity"
         />
+        <activity android:name="com.ibm.mobileappbuilder.newapp20161114113756.ui.MenuActivity"
+            android:label="@string/menuActivity"
+        />
         <activity android:name="com.ibm.mobileappbuilder.newapp20161114113756.ui.NewAppMainActivity"
             android:label="@string/newAppMainActivity"
             android:theme="@style/AppTheme.Drawer">

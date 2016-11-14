@@ -15,7 +15,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * "EmptyDatasource" static data source (ef8a3eae-7ab8-4cac-b5d4-d52deb6b54ee)
+ * "EmptyDatasource" static data source (55945bcd-f694-4435-ae56-8ba28e685fcb)
  */
 public class EmptyDatasource implements Datasource<Item>, Count,
             Pagination<Item>, Distinct {

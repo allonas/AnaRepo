@@ -16,6 +16,7 @@ public class NewAppMainActivity extends DrawerActivity {
     {
             sectionFragments.append(R.id.entry0, InicioFragment.class);
             sectionFragments.append(R.id.entry1, ContactFragment.class);
+            sectionFragments.append(R.id.entry2, MenuFragment.class);
     }
 
     @Override
