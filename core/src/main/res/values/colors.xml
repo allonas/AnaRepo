@@ -18,6 +18,7 @@
     <color name="transparent">#00000000</color>
     <color name="actionbar_background">#ffcb412a</color>
     <color name="textBarColor">#fffcfcfc</color>
+    <color name="hintSearchBarColor">#99fcfcfc</color>
     <color name="primaryDark">#ffcb412a</color>
     <color name="cardBackgroundColor">#99000000</color>
     <color name="selectionColor">#99dfdfdf</color>

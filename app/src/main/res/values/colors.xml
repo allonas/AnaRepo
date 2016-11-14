@@ -6,6 +6,7 @@
     <color name="textColorSecondary">#99545454</color>
     <color name="textColorMuted">#4d545454</color>
     <color name="textBarColor">#545454</color>
+    <color name="hintSearchBarColor">#99545454</color>
     <color name="window_background">#F3F3F3</color>
    
     <!-- background drawable: be sure it has a not too large size/resolution -->

@@ -28,6 +28,12 @@ public class SearchBehavior extends NoOpBehavior {
         MenuItem searchMenuItem = menu.findItem(R.id.search);
         searchView = (SearchView) MenuItemCompat.getActionView(searchMenuItem);
 
+        SearchView.SearchAutoComplete searchEditText = (SearchView.SearchAutoComplete)
+                searchView.findViewById(R.id.search_src_text);
+
+        searchEditText.setHintTextColor(ContextCompat.getColor(
+                ApplicationInjector.getApplicationContext(), R.color.hintSearchBarColor));
+
         if (searchView != null) {
             searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
                 @Override
